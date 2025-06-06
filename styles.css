@@ -1,11 +1,19 @@
 .section-divider {
-  margin-top: 4rem;
+  margin-top: 2em;
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .column-divider {
   border-right: 1px solid rgba(255, 255, 255, 0.15);
+  height: 100%;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+
+.column-divider-both-sides {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
   height: 100%;
   margin-right: 1rem;
   padding-right: 1rem;
@@ -56,12 +64,12 @@ body {
   color: white;
 }
 
-.blue { background-color: #2a62ac;}
-.green { background-color: #196c2c;}
-.red { background-color: #ae2c39;}
-.yellow { background-color: #ae8405;}
-.grey { background-color: #6c757d;}
-.teal { background-color: #1a9872;}
+.blue {background-color: #2a62ac;}
+.green {background-color: #196c2c;}
+.red {background-color: #ae2c39;}
+.yellow {background-color: #ae8405;}
+.grey {background-color: #6c757d;}
+.teal {background-color: #1a9872;}
 
 .course-list {
   font-size: 0.9rem;
