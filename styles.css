@@ -70,6 +70,11 @@ body {
 .yellow {background-color: #ae8405;}
 .grey {background-color: #6c757d;}
 .teal {background-color: #1a9872;}
+.purple {background-color: #6f42c1;}
+
+.custom-list-spacing li {
+  margin-bottom: 0.5rem; /* lub inna wartość */
+}
 
 .course-list {
   font-size: 0.9rem;
