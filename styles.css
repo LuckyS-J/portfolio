@@ -125,10 +125,26 @@ body {
 
 a.no-style {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a.no-style:hover {
+  color: inherit;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 3px;
+}
+
+.link-subtle {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.link-subtle:hover {
   text-decoration: underline;
 }
